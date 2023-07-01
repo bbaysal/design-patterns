@@ -7,6 +7,7 @@ import com.brk.designpatterns.structural.adapter.impl.AdapterPatternImpl;
 import com.brk.designpatterns.structural.bridge.impl.BridgePatternImpl;
 import com.brk.designpatterns.structural.composite.impl.CompositePatternImpl;
 import com.brk.designpatterns.structural.contract.StructralPattern;
+import com.brk.designpatterns.structural.decorator.impl.DecoratorPatternImpl;
 
 public class App {
 
@@ -27,6 +28,7 @@ public class App {
 		patterns.add(new AdapterPatternImpl());
 		patterns.add(new BridgePatternImpl());
 		patterns.add(new CompositePatternImpl());
+		patterns.add(new DecoratorPatternImpl());
 	}
 
 	private static void applyPattern(StructralPattern pattern) {
