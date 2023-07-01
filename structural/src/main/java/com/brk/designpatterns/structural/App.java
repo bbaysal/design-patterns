@@ -5,6 +5,7 @@ import java.util.List;
 
 import com.brk.designpatterns.structural.adapter.impl.AdapterPatternImpl;
 import com.brk.designpatterns.structural.bridge.impl.BridgePatternImpl;
+import com.brk.designpatterns.structural.composite.impl.CompositePatternImpl;
 import com.brk.designpatterns.structural.contract.StructralPattern;
 
 public class App {
@@ -25,6 +26,7 @@ public class App {
 		patterns = new ArrayList<>();
 		patterns.add(new AdapterPatternImpl());
 		patterns.add(new BridgePatternImpl());
+		patterns.add(new CompositePatternImpl());
 	}
 
 	private static void applyPattern(StructralPattern pattern) {
