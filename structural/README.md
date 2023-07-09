@@ -21,3 +21,7 @@ It deals with the tree structure and intends that a leaf and composite to have t
 The decorator pattern is used for adding the functionality of each level of the hierarchy without breaking down the other part of the system. IT addicts to the single responsibility principle in the OOP. 
 
 The behavior of the parts of the system can be composed to decorate the classes. It provides a unique way to adding functionality. 
+
+### Facade Pattern
+
+Generally used to simplify poorly designed API and reduce the code's dependencies from outside. It provides an easy-to-use interface to the client. It is easy to implement also. We just need to wrap the facade around the API. 
