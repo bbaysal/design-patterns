@@ -32,3 +32,7 @@ Generally used to simplify poorly designed API and reduce the code's dependencie
 
 ### Flyweight Pattern
 It has been used for minimizing the usage of memory by sharing similarly typed objects. It is a type of optimization pattern. It employs the Factory pattern to get the instances of the flyweight objects. It has a creational pattern inside the structural pattern.
+
+### Proxy Pattern
+
+The proxy pattern acts as an interface between a class and the others. It can be used for various reasons, such as security checks, simplifying the availability of the object. The object is wrapped by another object and can be added more functionality to the class.  The proxy is used to access the real object.  In the implementation example, the application throws an exception because of the authentication consideration. Any security step can be implemented in the proxy class. 
