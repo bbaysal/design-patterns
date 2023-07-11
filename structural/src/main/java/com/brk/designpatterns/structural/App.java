@@ -8,6 +8,9 @@ import com.brk.designpatterns.structural.bridge.impl.BridgePatternImpl;
 import com.brk.designpatterns.structural.composite.impl.CompositePatternImpl;
 import com.brk.designpatterns.structural.contract.StructralPattern;
 import com.brk.designpatterns.structural.decorator.impl.DecoratorPatternImpl;
+import com.brk.designpatterns.structural.facade.impl.FacadePatternImpl;
+import com.brk.designpatterns.structural.flyweight.impl.FlyWeightPatternImpl;
+import com.brk.designpatterns.structural.proxy.impl.ProxyPatternImpl;
 
 public class App {
 
@@ -29,6 +32,9 @@ public class App {
 		patterns.add(new BridgePatternImpl());
 		patterns.add(new CompositePatternImpl());
 		patterns.add(new DecoratorPatternImpl());
+		patterns.add(new FacadePatternImpl());
+		patterns.add(new FlyWeightPatternImpl());
+		patterns.add(new ProxyPatternImpl());
 	}
 
 	private static void applyPattern(StructralPattern pattern) {
