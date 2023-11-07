@@ -36,3 +36,9 @@ It has been used for minimizing the usage of memory by sharing similarly typed o
 ### Proxy Pattern
 
 The proxy pattern acts as an interface between a class and the others. It can be used for various reasons, such as security checks, simplifying the availability of the object. The object is wrapped by another object and can be added more functionality to the class.  The proxy is used to access the real object.  In the implementation example, the application throws an exception because of the authentication consideration. Any security step can be implemented in the proxy class. 
+
+## Behavioral Patterns
+
+### Chain of Responsibility Pattern
+
+The Chain of Responsibility pattern is used to create a loosely coupled structure in software design. It allows you to decouple the sender of a request from its receivers, enabling multiple objects to handle the request independently. Each class in the chain is responsible for a specific behavior or task and is aware of the next class that can handle the request. This design pattern provides flexibility by allowing you to insert, remove, or extend the chain of handlers as needed. It is particularly useful when you want to implement behavior or processing in the middle of a system without affecting the sender or other receivers of the request.
