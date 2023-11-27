@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.brk.designpatterns.behavioral.chain.impl.ChainPatternImpl;
+import com.brk.designpatterns.behavioral.command.impl.CommandPatternImpl;
 import com.brk.designpatterns.behavioral.contract.BehavioralPattern;
 
 public class App {
@@ -23,6 +24,7 @@ public class App {
 	private static void addPatterns() {
 		patterns = new ArrayList<>();
 		patterns.add(new ChainPatternImpl());
+		patterns.add(new CommandPatternImpl());
 	}
 
 	private static void applyPattern(BehavioralPattern pattern) {

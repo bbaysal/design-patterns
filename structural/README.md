@@ -42,3 +42,7 @@ The proxy pattern acts as an interface between a class and the others. It can be
 ### Chain of Responsibility Pattern
 
 The Chain of Responsibility pattern is used to create a loosely coupled structure in software design. It allows you to decouple the sender of a request from its receivers, enabling multiple objects to handle the request independently. Each class in the chain is responsible for a specific behavior or task and is aware of the next class that can handle the request. This design pattern provides flexibility by allowing you to insert, remove, or extend the chain of handlers as needed. It is particularly useful when you want to implement behavior or processing in the middle of a system without affecting the sender or other receivers of the request.
+
+### Command Pattern
+
+The Command pattern helps the sender of the request from the object that carries out the request. This separation boosts the system flexibility and makes more maintainable. By representing each request as an object, this pattern allows an object-oriented software design. Instead of adding many methods directly to complex classes, commands become distinct objects, promoting modular and expandable design. While commonly employed for enabling undo functionality due to the encapsulation, this pattern also versatile and applicable in various scenarios where command execution needs to be independent from the request. 
