@@ -6,6 +6,7 @@ import java.util.List;
 import com.brk.designpatterns.behavioral.chain.impl.ChainPatternImpl;
 import com.brk.designpatterns.behavioral.command.impl.CommandPatternImpl;
 import com.brk.designpatterns.behavioral.contract.BehavioralPattern;
+import com.brk.designpatterns.behavioral.interpreter.impl.InterpreterPatternImpl;
 
 public class App {
 
@@ -25,6 +26,7 @@ public class App {
 		patterns = new ArrayList<>();
 		patterns.add(new ChainPatternImpl());
 		patterns.add(new CommandPatternImpl());
+		patterns.add(new InterpreterPatternImpl());
 	}
 
 	private static void applyPattern(BehavioralPattern pattern) {

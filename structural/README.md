@@ -46,3 +46,6 @@ The Chain of Responsibility pattern is used to create a loosely coupled structur
 ### Command Pattern
 
 The Command pattern helps the sender of the request from the object that carries out the request. This separation boosts the system flexibility and makes more maintainable. By representing each request as an object, this pattern allows an object-oriented software design. Instead of adding many methods directly to complex classes, commands become distinct objects, promoting modular and expandable design. While commonly employed for enabling undo functionality due to the encapsulation, this pattern also versatile and applicable in various scenarios where command execution needs to be independent from the request. 
+
+### Interpreter Pattern
+It represents the syntax grammar and is frequently employed by compilers to interpret source code. This pattern becomes valuable when creating an Abstract Syntax Tree for a specific domain language
