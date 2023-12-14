@@ -7,6 +7,8 @@ import com.brk.designpatterns.behavioral.chain.impl.ChainPatternImpl;
 import com.brk.designpatterns.behavioral.command.impl.CommandPatternImpl;
 import com.brk.designpatterns.behavioral.contract.BehavioralPattern;
 import com.brk.designpatterns.behavioral.interpreter.impl.InterpreterPatternImpl;
+import com.brk.designpatterns.behavioral.iterator.IteratorPatternImpl;
+import com.brk.designpatterns.behavioral.mediator.impl.MediatorPaternImpl;
 
 public class App {
 
@@ -27,6 +29,8 @@ public class App {
 		patterns.add(new ChainPatternImpl());
 		patterns.add(new CommandPatternImpl());
 		patterns.add(new InterpreterPatternImpl());
+		patterns.add(new IteratorPatternImpl());
+		patterns.add(new MediatorPaternImpl());
 	}
 
 	private static void applyPattern(BehavioralPattern pattern) {

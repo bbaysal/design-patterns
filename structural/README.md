@@ -49,3 +49,6 @@ The Command pattern helps the sender of the request from the object that carries
 
 ### Interpreter Pattern
 It represents the syntax grammar and is frequently employed by compilers to interpret source code. This pattern becomes valuable when creating an Abstract Syntax Tree for a specific domain language
+
+### Mediator Pattern
+The Mediator Pattern facilitates communication among colleagues, promoting loose coupling between objects. Each object doesn't possess knowledge about the others, relying on a central mediator to coordinate interactions.
