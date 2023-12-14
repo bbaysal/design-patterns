@@ -9,6 +9,7 @@ import com.brk.designpatterns.behavioral.contract.BehavioralPattern;
 import com.brk.designpatterns.behavioral.interpreter.impl.InterpreterPatternImpl;
 import com.brk.designpatterns.behavioral.iterator.IteratorPatternImpl;
 import com.brk.designpatterns.behavioral.mediator.impl.MediatorPaternImpl;
+import com.brk.designpatterns.behavioral.memento.impl.MementoPatternImpl;
 
 public class App {
 
@@ -31,6 +32,7 @@ public class App {
 		patterns.add(new InterpreterPatternImpl());
 		patterns.add(new IteratorPatternImpl());
 		patterns.add(new MediatorPaternImpl());
+		patterns.add(new MementoPatternImpl());
 	}
 
 	private static void applyPattern(BehavioralPattern pattern) {

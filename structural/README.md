@@ -52,3 +52,6 @@ It represents the syntax grammar and is frequently employed by compilers to inte
 
 ### Mediator Pattern
 The Mediator Pattern facilitates communication among colleagues, promoting loose coupling between objects. Each object doesn't possess knowledge about the others, relying on a central mediator to coordinate interactions.
+
+### Memento Pattern
+The Memento pattern enables the implementation of an undo feature in applications. It manages and encapsulates the state of an object, allowing it to revert to previous states without exposing its internal details.
